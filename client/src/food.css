@@ -1,0 +1,55 @@
+.FoodMainDiv {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://image.shutterstock.com/z/stock-photo-served-banquet-table-in-a-restaurant-with-cold-hot-appetizers-sliced-meat-bread-in-bowls-on-the-1590991075.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 706px;
+}
+
+.FoodMainDiv div{
+    margin: 50px;
+    width: 350px;
+}
+
+.FoodMainDiv input{
+    width: 100%;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: large;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.FoodMainDiv button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: darkgrey;
+    border: none;
+}
+
+.FoodMainDiv input:hover{
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+.FoodMainDiv button:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.FoodMainDiv input:focus{
+    background-color:slategrey;
+    border-radius: 10px;
+    color: white;
+}
+
+.FoodMainDiv input::placeholder{
+    color: white;
+}
